@@ -11,11 +11,17 @@ body    {
 }
 
 header  {
+    background-color: #FFFFFF;
+
     border: 1px solid #E8EDED;
 
     min-height: 80px;
 
     width: 100%;
+}
+
+.extra1 {
+    display: none;
 }
 
 .nav-link   {
@@ -116,7 +122,7 @@ figcaption p    {
     text-align: center;
 }
 
-.extra  {
+.extra2  {
     height: 100px;
 }
 
