@@ -23,7 +23,7 @@
     }
 
     .nav-menu   {
-        background-color: #1351D8;
+        background-color: #1B357E;
 
         flex-direction: column;
 
@@ -52,5 +52,32 @@
 
     .nav-link   {
         color: #FFFFFF;
+    }
+}
+@media (max-width: 500px)   {
+    footer  {
+        flex-direction: column;
+
+        height: auto;
+    }
+
+    .container      {
+        flex-direction: column;
+
+        margin-bottom: 10px;
+
+        margin-left: 0;
+    }
+
+    .container p   {
+        padding: 10px 0;
+    }
+
+    .socialNetworks li:nth-child(2)    {
+        padding: 0 10px;
+    }
+
+    .logoFooter     {
+        margin: 0 0 10px;
     }
 }
