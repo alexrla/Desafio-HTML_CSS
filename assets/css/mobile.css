@@ -1,0 +1,56 @@
+@media (max-width: 769px)   {
+    .logo img   {
+        position: initial;
+    }
+    .navbar     {
+        justify-content: space-between;
+    }
+
+    .hamburger  {
+        display: block;
+    }
+
+    .hamburger.active .line:nth-child(2)  {
+        opacity: 0;
+    }
+
+    .hamburger.active .line:nth-child(1)  {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .line:nth-child(3)  {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu   {
+        background-color: #1351D8;
+
+        flex-direction: column;
+
+        gap: 0;
+
+        left: -100%;
+
+        position: fixed;
+
+        text-align: center;
+         
+        top: 80px;
+
+        transition: 0.5s ease-in;
+
+        width: 100%;
+    }
+
+    .nav-item   {
+        margin: 20px 0;
+    }
+
+    .nav-menu.active    {
+        left: 0;
+    }
+
+    .nav-link   {
+        color: #FFFFFF;
+    }
+}
