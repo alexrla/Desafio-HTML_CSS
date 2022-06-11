@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html, body    {
+body    {
     font-family: 'Open Sans', sans-serif;
 
     min-height: 100%;
@@ -88,6 +88,38 @@ header  {
     -webkit-transition: all 0.3s ease-in-out;
 }
 
+main    {
+    margin: 10px 0;
+
+    width: 100%;
+}
+
+.section-desktop     {
+    margin: 0 auto;
+
+    width: 90%;
+}
+
+.section-mobile     {
+    display: none;
+}
+
+figure img  {
+    width: 100%;
+}  
+
+figcaption p    {
+    font-size: 22px;
+
+    padding-top: 10px;
+
+    text-align: center;
+}
+
+.extra  {
+    height: 100px;
+}
+
 footer  {
     align-items: center;
 
@@ -103,7 +135,7 @@ footer  {
 
     left: 0;
 
-    position: absolute;
+    position: fixed;
 
     width: 100%;
 }
@@ -132,4 +164,8 @@ footer  {
 
 .logoFooter     {
     margin-right: 20px;
+}
+
+.barra-vertical {
+    display: none;
 }
