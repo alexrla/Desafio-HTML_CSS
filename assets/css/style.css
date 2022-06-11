@@ -169,3 +169,124 @@ footer  {
 .barra-vertical {
     display: none;
 }
+
+/* Lançamento */
+
+.content-lancamento {
+    align-items: center;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    margin-top: 10px;
+
+    width: 100%;
+}
+
+.description  {
+    font-size: 20px;
+}
+
+.imageCars  {
+    display: flex;
+
+    gap: 120px;
+
+    margin-top: 20px;
+}
+
+.imageCars img  {
+    width: 250px;
+}
+
+/* Contato */
+.section-contato    {
+    align-items: flex-start;
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 40px;
+}
+
+form    {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+    /* width: 100%; */
+}
+
+form p  {
+    font-size: 22px;
+
+    font-weight: 700;
+}
+
+form input, form select {
+    border: 1px solid #CDCDCD;
+
+    border-radius: 20px;
+
+    color: #929292;
+
+    font-size: 18px;
+
+    padding: 15px;
+
+    width: 500px;
+
+    /* max-width: 90%; */
+}
+
+form select {
+    background-color: #FFFFFF;
+}
+
+.submit {
+    display: flex;
+
+    justify-content: flex-end
+}
+
+form input[type="submit"] {
+    background-color: #1351D8;
+
+    border-radius: 15px;
+
+    color: #FFFFFF;
+
+    font-size: 18px;
+
+    padding: 15px;
+
+    width: 300px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #1B357E;
+
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    color: #929292;
+}
+ 
+:-moz-placeholder { 
+    color: #929292; 
+}
+ 
+::-moz-placeholder {  
+    color: #929292;
+}
+ 
+:-ms-input-placeholder {  
+    color: #929292;  
+}
