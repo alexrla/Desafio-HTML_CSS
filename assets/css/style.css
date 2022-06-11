@@ -172,6 +172,11 @@ footer  {
 
 /* Lançamento */
 
+iframe  {
+    height: 600px;
+
+    width: 100%;
+}
 .content-lancamento {
     align-items: center;
 
@@ -181,6 +186,8 @@ footer  {
 
     justify-content: center;
 
+    margin-bottom: 20px;
+
     margin-top: 10px;
 
     width: 100%;
@@ -188,18 +195,71 @@ footer  {
 
 .description  {
     font-size: 20px;
+
+    text-align: center;
 }
 
 .imageCars  {
     display: flex;
 
-    gap: 120px;
+    gap: 100px;
 
     margin-top: 20px;
 }
 
 .imageCars img  {
     width: 250px;
+}
+
+
+td  {
+    width: 350px;
+}
+
+.content-td  {
+    align-items: center;
+
+    display: flex;
+}
+
+.td2  {
+    justify-content: center;
+}
+
+.td3    {
+    justify-content: flex-end;
+}
+
+.checkbox  {
+    height: 40px;
+
+    margin: 0 10px 0 0;
+
+    width: 40px;
+}
+
+.content-td .text-td p {
+    color: #1351D8;
+
+    font-size: 16px;
+}
+
+.content-td .text-td span  {
+    font-size: 14px;
+
+    margin-top: 5px;
+}
+
+.content-td img    {
+    height: 30px;
+
+    margin-left: 10px;
+
+    width: 30px;
+}
+
+.content-mobile {
+    display: none;
 }
 
 /* Contato */
@@ -220,7 +280,6 @@ form    {
 
     gap: 10px;
 
-    /* width: 100%; */
 }
 
 form p  {
@@ -229,7 +288,7 @@ form p  {
     font-weight: 700;
 }
 
-form input, form select {
+form input, form select, form textarea  {
     border: 1px solid #CDCDCD;
 
     border-radius: 20px;
@@ -241,8 +300,6 @@ form input, form select {
     padding: 15px;
 
     width: 500px;
-
-    /* max-width: 90%; */
 }
 
 form select {
