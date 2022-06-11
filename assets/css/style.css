@@ -329,6 +329,12 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
     background-color: #1B357E;
 
+    font-weight: bold;
+
+    height: 100px;
+
+    width: 350px;
+
     cursor: pointer;
 }
 
